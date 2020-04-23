@@ -1,0 +1,6 @@
+Declare x, r and y=0; //where x = Initial Number, y = Result, r = temp
+
+while(x != 0)
+  r = x % 10; // to get last digit
+  y = (y * 10) + r; // y * 10 =  shift unit place to 10th place to continue... and then add r
+  x = x / 10; //to remove last digit
